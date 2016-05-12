@@ -2,7 +2,7 @@ Maven basics
 ------------
 Maven Setup
 ------------
- * Download jdk and install 
+* Download jdk and install 
 	- default window path  = C:\Program Files\Java\jdk1.8.0_91\bin
 	- Setup bin path in environment path 
 	- Create JAVA_HOME=C:\Program Files\Java\jdk1.8.0_91

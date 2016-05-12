@@ -19,7 +19,8 @@ Build Lifecycle
 * integration-test - process and deploy the package if necessary into an environment where integration tests can be run
 * verify - run any checks to verify the package is valid and meets quality criteria
 * install - install the package into the local repository, for use as a dependency in other projects locally
-* deploy - done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.	  
+* deploy - done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+
 --------------
 Archetype List
 --------------

@@ -25,3 +25,19 @@ Build Lifecycle
 Archetype List
 --------------
 * mvn archetype:generate	
+
+--------------------
+01-SimpleJavaProject
+--------------------
+* Demo of how to create basic java project.
+* mvn archetype:generate -DgroupId=com.mycompany -DartifactId=01-SimpleJavaProject  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+* Generates directory structure as below 
+	01-SimpleJavaProject
+		pom.xml
+		--\src
+			--\main\java\com\mycompany\App.java
+			--\test\java\com\mycompany\AppTest.java
+			--\target\01-SimpleJavaProject-1.0-SNAPSHOT.jar
+	
+* How to run compile file
+	java -cp target/01-SimpleJavaProject-1.0-SNAPSHOT.jar  com.mycompany.App	

@@ -40,4 +40,4 @@ Archetype List
 			--\target\01-SimpleJavaProject-1.0-SNAPSHOT.jar
 	
 * How to run compile file
-	java -cp target/01-SimpleJavaProject-1.0-SNAPSHOT.jar  com.mycompany.App	
+	- java -cp target/01-SimpleJavaProject-1.0-SNAPSHOT.jar  com.mycompany.App	

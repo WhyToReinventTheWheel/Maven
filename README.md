@@ -25,10 +25,12 @@ Build Lifecycle
 Archetype List
 --------------
 * mvn archetype:generate	
-
+* Archetype: what kind of project..Simple java,J2ee or spring application.
+* 
 --------------------
 01-SimpleJavaProject
 --------------------
+* https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 * Demo of how to create basic java project.
 * mvn archetype:generate -DgroupId=com.mycompany -DartifactId=01-SimpleJavaProject  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 * Generates directory structure as below 

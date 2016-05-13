@@ -69,6 +69,7 @@ Archetype List
 --------------
 * mvn archetype:generate	
 * Archetype: what kind of project..Simple java,J2ee or spring application.
+
 --------------------
 01-SimpleJavaProject
 --------------------
@@ -85,3 +86,19 @@ Archetype List
 	
 * How to run compile file
 	- java -cp target/01-SimpleJavaProject-1.0-SNAPSHOT.jar  com.mycompany.App	
+
+---------------
+02-SimpleWebApp
+---------------
+ *  mvn archetype:generate -DgroupId=com.mk -DartifactId=02-SimpleWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+	OR  
+ * mvn archetype:generate and find  org.apache.maven.archetypes:maven-archetype-webapp
+ 	- Define value for property 'groupId': : com.mk
+	- Define value for property 'artifactId': : 02-SimpleWebAp
+	- Define value for property 'version':  1.0-SNAPSHOT: :
+	- Define value for property 'package':  com.mk:
+ * Add Tomcat Plugin 
+ * mvn install 
+ * mvn tomcat:run
+ * http://localhost:8080/02-SimpleWebApp/
+ 

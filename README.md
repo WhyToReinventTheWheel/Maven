@@ -91,7 +91,7 @@ Archetype List
 02-SimpleWebApp
 ---------------
  *  mvn archetype:generate -DgroupId=com.mk -DartifactId=02-SimpleWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
-	OR  
+	- OR  
  * mvn archetype:generate and find  org.apache.maven.archetypes:maven-archetype-webapp
  	- Define value for property 'groupId': : com.mk
 	- Define value for property 'artifactId': : 02-SimpleWebAp

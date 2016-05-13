@@ -94,7 +94,7 @@ Archetype List
 	- OR  
  * mvn archetype:generate and find  org.apache.maven.archetypes:maven-archetype-webapp
  	- Define value for property 'groupId': : com.mk
-	- Define value for property 'artifactId': : 02-SimpleWebAp
+	- Define value for property 'artifactId': : 02-SimpleWebApp
 	- Define value for property 'version':  1.0-SNAPSHOT: :
 	- Define value for property 'package':  com.mk:
  * Add Tomcat Plugin 

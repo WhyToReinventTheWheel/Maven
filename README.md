@@ -1,3 +1,8 @@
+-----------
+Quickstart
+-----------
+mvn archetype:generate -DgroupId=com.mk -DartifactId=DemoJavaProject  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
 --------------------
 Get start with Maven
 --------------------
